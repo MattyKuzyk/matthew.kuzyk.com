@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
-          $('#name').fadeIn(400);
+	setTimeout(function(){
+
+          $('#name').fadeIn(1000);
+      },500);
 
       });
