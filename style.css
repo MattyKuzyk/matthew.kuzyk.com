@@ -1,13 +1,24 @@
 #headContainer {
 	text-align:left;
+	float:left;
 	padding:50px;
 }
 
 #name {
-	padding-bottom:5px;
-	display: none;
-	font-family: "Anaheim", sans-serif;
 	font-size: 6.0em;
+	line-height: 1em;
+	
+}
+#bio {
+	
+	font-size: 2.0em;
+	
+}
+
+span {
+	
+	display:none;
+	font-family: "Anaheim", sans-serif;
 	
 }
 
