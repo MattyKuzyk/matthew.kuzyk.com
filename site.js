@@ -19,6 +19,11 @@ $(document).ready(function(){
 
           $('#bio').fadeIn(1000);
       },1000);
+	  
+	  setTimeout(function(){
+
+          $('.link').fadeIn(1000);
+      },1500);
 
 
 

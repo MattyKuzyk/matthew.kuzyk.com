@@ -12,10 +12,15 @@
 	
 }
 
+.link{
+	display:none;
+	color: inherit;
+	font-size: 2.5em;
+
+}
 span {
 	
 	display:none;
-	font-family: "Anaheim", sans-serif;
 	
 }
 
@@ -23,6 +28,7 @@ body{
 	background-repeat:no-repeat;
 	background-attachment:fixed;
     background-image: url('slothgetmoney.jpg');
+	font-family: "Anaheim", sans-serif;
 	font-size:62.5%;
     
 
