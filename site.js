@@ -1,14 +1,16 @@
 var bio = new Array();
-var randomnumber=Math.floor(Math.random()*4);
+var randomnumber=Math.floor(Math.random()*6);
 bio[0] = "Blorange Enthusiast";
 bio[1] = "Sloths, mang";
 bio[2] = "Jack of all trades, master of some";
 bio[3] = "What's Gucci?"
+bio[4] = "I cry Based tears";
+bio[5] = 'div id="yolo" because #yolo';
 
 
 $(document).ready(function(){
 
-	$('#bio').text(bio[randomnumber]);
+	$('#swag').text(bio[randomnumber]);
 
 	setTimeout(function(){
 
@@ -17,7 +19,7 @@ $(document).ready(function(){
 
 	setTimeout(function(){
 
-          $('#bio').fadeIn(1000);
+          $('#swag').fadeIn(1000);
       },1000);
 	  
 	  setTimeout(function(){
