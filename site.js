@@ -8,7 +8,7 @@ bio[4] = "I cry Based tears";
 bio[5] = 'div id="yolo" because #yolo';
 bio[6] = 'Not random, just psuedo-random';
 bio[7] = "Is this how I use Tumblr?";
-bio[8] = "Girls say I can't commit, they should my git log";
+bio[8] = "Girls say I can't commit, they should see my git log";
 
 
 $(document).ready(function(){
