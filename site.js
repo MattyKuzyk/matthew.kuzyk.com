@@ -1,17 +1,19 @@
 var bio = new Array();
-var randomnumber=Math.floor(Math.random()*9);
+var randomnumber=Math.floor(Math.random()*5);
 bio[0] = "Blorange Enthusiast";
-bio[1] = "Sloths, mang";
-bio[2] = "Jack of all trades, master of some";
-bio[3] = "What's Gucci?"
-bio[4] = "I cry Based tears";
-bio[5] = 'div id="yolo" because #yolo';
-bio[6] = 'Not random, just psuedo-random';
-bio[7] = "Is this how I use Tumblr?";
-bio[8] = "Girls say I can't commit, they should see my git log";
+bio[1] = "Jack of all trades, master of some";
+bio[2] = 'div id="yolo" because #yolo';
+bio[3] = 'Not random, just psuedo-random';
+bio[4] = "Girls say I can't commit, they should see my git log";
+/*bio[5] = "What's Gucci?"
+bio[6] = "I cry Based tears";
+bio[7] = "Sloths, mang";
+bio[8] = "Is this how I use Tumblr?";*/
 
 
 $(document).ready(function(){
+
+//GEE THIS ISN'T HACKY AT ALL
 
 	$('#swag').text(bio[randomnumber]);
 
