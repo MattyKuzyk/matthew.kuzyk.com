@@ -12,6 +12,16 @@
 	
 }
 
+#sloth {
+	position:absolute; max-width: 40%;
+	height: auto;
+	width: auto\9; 
+	float:right; 
+	right:0px; 
+	bottom:0px; 
+	z-index:-1;
+ }
+
 .link{
 	display:none;
 	color: inherit;
@@ -32,11 +42,7 @@ span {
 }
 
 body{
-/*	background-repeat:no-repeat;
-	background-attachment:fixed;
-    background-image: url('slothgetmoney.jpg'); */
 	font-family: "Anaheim", sans-serif;
 	font-size:62.5%;
-    
-
 }
+
