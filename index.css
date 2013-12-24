@@ -1,35 +1,16 @@
 h1 {
 	font-size: 9em;
-	margin: 0 0 15px 0;
+	margin: 0;
+	font-weight: 100;
 }
 
 #swag {
-	
-	font-size: 4em;
-	
+	font-size: 3em;
+	color: #757B8A;
 }
 
 #sloth {
-
-/*	position: absolute;
-	bottom: 0;
-	right: 0;*/
 	width: 100%;
- }
-
-.container-text {
-	display: inline-block;
-	float: left;
-	height: 100%;
-	width: 767px;
-}
-
-.container-sloth {
-	position: relative;
-	display: inline-block;
-	float: left;
-	width: 300px;
-	min-height: 100%;
 }
 
 .link{
@@ -38,33 +19,41 @@ h1 {
 	font-size: 3em;
 	text-decoration: none;
 	color:#1B8EE0;
-	margin-left: 10px;
-	/*color:#C2C2C2;*/
-
+	margin-right: 0.75em;
 }
+
 #links {
 	font-family:"Oxygen";
-	padding-top:2em;
+	margin-top:12em;
 }
-span {
-	
-	display:none;
-	
+
+span, a.link {
+	visibility:hidden;
 }
 
 body{
 	font-family: "Anaheim", sans-serif;
 	font-size:62.5%;
-	overflow: auto;
+	display: table;
 }
 
-@media screen and (max-width: 767px) {
-	.container-text {
-		width: 500px;
-	}
+body, html {
+	height: 100%;
+}
 
-	.container-sloth {
-		width: 267px;
-	}
+#fluid {
+	display: table-cell;
+	vertical-align: bottom;
+}
 
+#fixed-width {
+	display: table-cell;
+	padding-left: 15px;
+	width: 700px;
+}
+
+@media screen and (max-width: 1000px) {
+	#sloth {
+		display: none;
+	}
 }
