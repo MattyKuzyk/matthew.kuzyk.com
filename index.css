@@ -35,6 +35,7 @@ body{
 	font-family: "Anaheim", sans-serif;
 	font-size:62.5%;
 	display: table;
+	margin: 0;
 }
 
 body, html {
