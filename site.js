@@ -22,17 +22,17 @@ $(document).ready(function(){
 
 	setTimeout(function(){
 
-          $('#name').fadeIn(1000);
+          $('#name').hide().css("visibility", "visible").fadeIn(1000);
       },500);
 
 	setTimeout(function(){
 
-          $('#swag').fadeIn(1000);
+          $('#swag').hide().css("visibility", "visible").fadeIn(1000);
       },1000);
 	  
 	  setTimeout(function(){
 
-          $('.link').fadeIn(1000);
+          $('.link').hide().css("visibility", "visible").fadeIn(1000);
       },1500);
 
 
