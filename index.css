@@ -38,19 +38,29 @@ body{
 	margin: 0;
 }
 
-body, html {
+.image-column {
+	margin-left: 767px;
+}
+
+.image-wrapper{
+	height: 100%;
+	float: left;
+	width: 100%;
+}
+
+.left-column{
+	float: left;
+	width: 767px; /*Width of left column*/
+	margin-left: -100%;
+}
+
+#sloth {
 	height: 100%;
 }
 
-#fluid {
-	display: table-cell;
-	vertical-align: bottom;
-}
-
-#fixed-width {
-	display: table-cell;
-	padding-left: 15px;
-	width: 700px;
+html, body
+{
+  height: 100%;
 }
 
 @media screen and (max-width: 1000px) {
