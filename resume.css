@@ -14,11 +14,29 @@ strong {
   color:#3D85C6;
 }
 
+@media print {
+  .cover-letter {
+    page-break-after:always;
+  }
+}
+
+.cover-letter {
+  margin: 50px 60px 60px;
+}
+.cover-letter h1 {
+  font-size: 30px;
+}
+
+.cover-letter p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
 h1 {
-        font-size: 50px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        color:#444444;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:#444444;
 }
 .blue, hr {
   color:#3D85C6;
