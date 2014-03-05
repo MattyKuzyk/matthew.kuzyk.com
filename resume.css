@@ -39,6 +39,7 @@ h1 {
   padding-left: 20%;
 }
 h3 {
+  margin-top: 0;
   color:#444444;
   font-size: 20px;
   float: left;
@@ -62,12 +63,29 @@ ul{
   color:#3D85C6;
 }
 .jobTitle {
-  font-weight:bold;
-  color:#3D85C6;
+  font-size: 1.2em;
+  /*font-weight:bold;*/
+  /*font-variant: small-caps;*/
+  /*color:#3D85C6;*/
 }
 .jobInfo {
   text-indent:35px;
 }
+
+.workPlace {
+  font-size: 0.9em;
+  font-style: italic;
+  color:#3D85C6;
+}
 .section li {
   line-height: 22px;
+}
+
+.sub {
+  list-style-image: url("dash.jpg");
+}
+
+.date {
+  float:right;
+  font-size:0.8em;
 }
