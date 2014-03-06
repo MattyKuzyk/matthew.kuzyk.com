@@ -89,3 +89,21 @@ ul{
   float:right;
   font-size:0.8em;
 }
+
+@media print {
+  .cover-letter {
+    page-break-after:always;
+  }
+}
+
+.cover-letter {
+  margin: 50px 60px 60px;
+}
+.cover-letter h1 {
+  font-size: 30px;
+}
+
+.cover-letter p {
+  font-size: 20px;
+  line-height: 27px;
+}
